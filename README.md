@@ -1,16 +1,31 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Tejas14Feb/Tejas14Feb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img
+  src="https://readme-typing-svg
+  .demolab.com?font=Cormorant+Garamond
+  &weight=700&size=40
+  &letterSpacing=8px
+  &pause=1000
+  &color=F0ECFF
+  &center=true
+  &vCenter=true
+  &width=700&height=90
+  &lines=TEJAS+BUDHARAMU"
+  alt="Tejas Budharamu"
+/>
 
-Here are some ideas to get you started:
+<img
+  src="https://readme-typing-svg
+  .demolab.com?font=Montserrat
+  &weight=200&size=13
+  &letterSpacing=6px
+  &pause=3000
+  &color=C8B9FF
+  &center=true&vCenter=true
+  &width=500&height=30
+  &lines=
+  DATA+SCIENCE+·+AI%2FML+·+XAI"
+  alt="subtitle"
+/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
