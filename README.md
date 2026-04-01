@@ -1,6 +1,16 @@
 <!-- Header (Name + Headline) -->
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=TEJAS%20BUDHARAMU&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=DATA%20ENGINEER%20%E2%80%A2%20BUSINESS%20ANALYTICS%20%E2%80%A2%20DATA%20SCIENCE&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
 
+<!-- About Me -->
+## About Me
+- 🎓 Background: BS Computer Science (AI) · Specializing in Business Analytics & Mathematics
+- ⚙️ Data Engineering: ETL/ELT pipeline design · Cloud-based data platforms · Schema architecture · Data infrastructure & automation
+- 🔬 Data Science: Statistical & ML modeling · Bayesian inference · Predictive analytics · Explainable AI (XAI)
+- 📊 Business Analytics: Data visualization · Business intelligence · Decision frameworks · Consulting & stakeholder delivery
+- 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
+- 📜 Certificates: In Progress
+- 🏆 Achievements: Coming soon
+
 <!-- Github Stats -->
 <p align="center">
   <a href="https://github.com/Tejas14Feb">
@@ -15,12 +25,4 @@
   </a>
 </p>
 
-<!-- Github Stats -->
-## 📌 About Me
-- 🎓 Background: BS Computer Science (AI) · Specializing in Business Analytics & Mathematics
-- ⚙️ Data Engineering: ETL/ELT pipeline design · Cloud-based data platforms · Schema architecture · Data infrastructure & automation
-- 🔬 Data Science: Statistical & ML modeling · Bayesian inference · Predictive analytics · Explainable AI (XAI)
-- 📊 Business Analytics: Data visualization · Business intelligence · Decision frameworks · Consulting & stakeholder delivery
-- 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
-- 📜 Certificates: In Progress
-- 🏆 Achievements: Coming soon
+
