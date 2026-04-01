@@ -37,7 +37,9 @@
   <a href="https://github.com/Tejas14Feb">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Tejas14Feb&cache_seconds=7200&layout=compact&theme=onedark&border_radius=10" alt="Tejas14Feb's GitHub Stats" />
   </a>
-  <img src="https://streak-stats.demolab.com/?user=Tejas14Feb&theme=onedark&hide_border=true&cache_seconds=86400" alt="Tejas14Feb's GitHub Streak" width="49%" />
+</p>
+<p align="center">
+  <img src="/3d-city.gif" alt="3D City View Preview" width="100%" />
 </p>
 
 <p align="center">
