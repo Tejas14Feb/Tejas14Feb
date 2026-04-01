@@ -1,3 +1,8 @@
+<!-- TOP BACKGROUND -->
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTB6eHNlZzJwN3ppMW50YmZzYmZlcmsxbjIwbXE5NmpxcXl2b2RwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwBTJ3lweZfBdtu/giphy.gif" width="100%">
+</p>
+
 <!-- Header (Name + Headline) -->
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=TEJAS%20BUDHARAMU&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=DATA%20ENGINEER%20%E2%80%A2%20BUSINESS%20ANALYTICS%20%E2%80%A2%20DATA%20SCIENCE&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
 
@@ -10,6 +15,11 @@
 - 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
 - 📜 Certificates: In Progress
 - 🏆 Achievements: Coming soon
+
+<!-- MID BACKGROUND -->
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTB6eHNlZzJwN3ppMW50YmZzYmZlcmsxbjIwbXE5NmpxcXl2b2RwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwBTJ3lweZfBdtu/giphy.gif" width="100%">
+</p>
 
 <!-- Github Stats -->
 <p align="center">
@@ -30,3 +40,7 @@
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 
+<!-- BOTTOM BACKGROUND -->
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTB6eHNlZzJwN3ppMW50YmZzYmZlcmsxbjIwbXE5NmpxcXl2b2RwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwBTJ3lweZfBdtu/giphy.gif" width="100%">
+</p>
