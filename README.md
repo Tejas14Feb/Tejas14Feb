@@ -9,11 +9,18 @@
   <img src="https://streak-stats.demolab.com/?user=Tejas14Feb&theme=onedark&hide_border=true&cache_seconds=86400" alt="Tejas14Feb's GitHub Streak" width="49%" />
 </p>
 
-
-## 🛠️ Languages & Tools
 <p align="center">
   <a href="https://github.com/Tejas14Feb">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Tejas14Feb&langs_count=8&layout=compact&theme=onedark&border_radius=10" alt="Top Languages" />
   </a>
 </p>
 
+<!-- Github Stats -->
+## 📌 About Me
+- 🎓 Background: BS Computer Science (AI) · Specializing in Business Analytics & Mathematics
+- ⚙️ Data Engineering: ETL/ELT pipeline design · Cloud-based data platforms · Schema architecture · Data infrastructure & automation
+- 🔬 Data Science: Statistical & ML modeling · Bayesian inference · Predictive analytics · Explainable AI (XAI)
+- 📊 Business Analytics: Data visualization · Business intelligence · Decision frameworks · Consulting & stakeholder delivery
+- 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
+- 📜 Certificates: In Progress
+- 🏆 Achievements: Coming soon
