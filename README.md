@@ -1,12 +1,6 @@
 <!-- Header (Name + Headline) -->
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=TEJAS%20BUDHARAMU&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Data%20Engineering%20%E2%80%A2%20Business%2FData%20Analytics%20%E2%80%A2%20Data%20Science&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
 
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Tejas14Feb">
-    <img src="https://komarev.com/ghpvc/?username=Tejas14Feb&label=Profile%20views&color=00FFFF&style=flat-square" alt="Tejas14Feb's profile views" />
-  </a>
-</p>
-
 <!-- About Me -->
 ## About Me
 - 🎓 Background: BS Computer Science (AI) · Specializing in Business Analytics & Mathematics
