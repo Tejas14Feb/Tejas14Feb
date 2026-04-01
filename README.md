@@ -51,5 +51,5 @@
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
 </p>
 <!-- Banner -->
-# Business Card
+## Business Card
 <img src="Banner_Tejas.png" alt="Banner" width="100%" />
