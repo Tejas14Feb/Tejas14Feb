@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=TEJAS%20BUDHARAMU&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Data%20Engineering%20%E2%80%A2%20Business%2FData%20Analytics%20%E2%80%A2%20Data%20Science&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
 
 <!-- Banner -->
-<img src="[https://canva.link/x7ufbd19mi35a73](https://canva.link/njhxtkc0mp88ojf)" alt="Banner" width="100%" />
+<img src="Banner -Tejas Budharamu.png" alt="Banner" width="100%" />
 
 <!-- About Me -->
 ## About Me
