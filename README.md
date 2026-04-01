@@ -11,7 +11,7 @@
 - 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
 - 📜 Certificates: In Progress
 - 🏆 Achievements: Coming soon
----
+
 
 ## Tech Stack
 
@@ -30,7 +30,7 @@
 ![Unity](https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black)&nbsp;&nbsp;&nbsp;![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![IFTTT](https://img.shields.io/badge/IFTTT-000000?style=for-the-badge&logo=ifttt&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;&nbsp;&nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
----
+
 
 <!-- Github Stats -->
 <p align="center">
@@ -38,22 +38,18 @@
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Tejas14Feb&cache_seconds=7200&layout=compact&theme=onedark&border_radius=10" alt="Tejas14Feb's GitHub Stats" />
   </a>
   <img src="https://streak-stats.demolab.com/?user=Tejas14Feb&theme=onedark&hide_border=true&cache_seconds=86400" alt="Tejas14Feb's GitHub Streak" width="49%" />
-  ---
 </p>
 
 <p align="center">
   <a href="https://github.com/Tejas14Feb">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Tejas14Feb&langs_count=8&layout=compact&theme=onedark&border_radius=10" alt="Top Languages" />
   </a>
-  ---
 </p>
 
 <!-- Space Shooter -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
-  ---
 </p>
 <!-- Banner -->
 # Business Card
----
 <img src="Banner_Tejas.png" alt="Banner" width="100%" />
