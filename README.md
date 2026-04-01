@@ -13,7 +13,19 @@
 - 🏆 Achievements: Coming soon
 
 ## Live Portfolio
-** [View My Portfolio](https://Tejas14Feb.github.io/YOUR-REPO-NAME)** **
+
+<div align="center">
+  <a href="https://Tejas14Feb.github.io/Tejas14Feb.github.io" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/🌐%20View%20Interactive%20Portfolio-FF6B00?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E1E" alt="View Portfolio" height="55" />
+  </a>
+</div>
+
+<br>
+
+<p align="center">
+  <strong>Modern • Responsive • Built from scratch</strong><br>
+  Featuring Projects • Skills • Research • Education
+</p>
 
 ## Tech Stack
 
