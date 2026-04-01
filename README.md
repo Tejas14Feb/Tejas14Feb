@@ -22,11 +22,6 @@
 
 <br>
 
-<p align="center">
-  <strong>Modern • Responsive • Built from scratch</strong><br>
-  Featuring Projects • Skills • Research • Education
-</p>
-
 ## Tech Stack
 
 **Languages**
