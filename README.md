@@ -3,6 +3,9 @@
 
 
 <!-- About Me -->
+<img src="[https://capsule-render.vercel.app/api?](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTB6eHNlZzJwN3ppMW50YmZzYmZlcmsxbjIwbXE5NmpxcXl2b2RwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwBTJ3lweZfBdtu/giphy.gif)
+type=venom&height=220&color=0:000000,100:a371f7&text=About%20Me&fontSize=30&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Data%20Engineering%20%E2%80%A2%20Business%2FData%20Analytics%20%E2%80%A2%20Data%20Science&descSize=22&descColor=FFFFFF&descAlignY=65" width="100%"/>
+
 ## About Me
 - 🎓 Background: BS Computer Science (AI) · Specializing in Business Analytics & Mathematics
 - ⚙️ Data Engineering: ETL/ELT pipeline design · Cloud-based data platforms · Schema architecture · Data infrastructure & automation
