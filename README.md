@@ -12,6 +12,8 @@
 - 📜 Certificates: In Progress
 - 🏆 Achievements: Coming soon
 
+### Live Portfolio
+**→ [View My Portfolio](https://Tejas14Feb.github.io/YOUR-REPO-NAME)** ←**
 
 ## Tech Stack
 
