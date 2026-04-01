@@ -15,7 +15,7 @@
 
 ## Tech Stack
 
-*Languages**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -23,6 +23,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
 
 **Visualization**
@@ -35,6 +36,7 @@
 ![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
 **Data Engineering**
 
@@ -53,6 +55,8 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![ETL/ELT](https://img.shields.io/badge/ETL%2FELT-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Agile/SDLC](https://img.shields.io/badge/Agile%2FSDLC-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 **AI / ML & Statistics**
 
@@ -67,7 +71,6 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 **Tools & Methods**
 
@@ -77,10 +80,13 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![ETL/ELT](https://img.shields.io/badge/ETL%2FELT-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Agile/SDLC](https://img.shields.io/badge/Agile%2FSDLC-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Spyder](https://img.shields.io/badge/Spyder-FF0000?style=for-the-badge&logo=spyder%20ide&logoColor=white)
+![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=datagrip&logoColor=white)
+![OrbStack](https://img.shields.io/badge/OrbStack-1A1A1A?style=for-the-badge&logo=linux&logoColor=white)
 
 
 <!-- Github Stats -->
@@ -88,9 +94,7 @@
   <a href="https://github.com/Tejas14Feb">
     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Tejas14Feb&cache_seconds=7200&layout=compact&theme=onedark&border_radius=10" alt="Tejas14Feb's GitHub Stats" />
   </a>
-</p>
-<p align="center">
-  <img src="/3d-city.gif" alt="3D City View Preview" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=Tejas14Feb&theme=onedark&hide_border=true&cache_seconds=86400" alt="Tejas14Feb's GitHub Streak" width="49%" />
 </p>
 
 <p align="center">
