@@ -22,7 +22,10 @@
 
 <br>
 
-[![End-to-End ML Pipeline (Spotify)](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=REPO_NAME&theme=radical&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=false)](https://github.com/Tejas14Feb/spotify-ml-project)
+## Pinned Repositories
+
+[![End-to-End ML Pipeline (Spotify)](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=REPO_NAME_1&theme=dracula)](https://github.com/Tejas14Feb/spotify-ml-project)
+
 
 ## Tech Stack
 
