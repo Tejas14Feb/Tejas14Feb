@@ -134,7 +134,8 @@
 
 <!-- Cool Stats Visualization -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/221352987-68da234d-4d62-4e9d-9d7f-098dc657c2dc.gif" />
+  <img src="<img src="https://user-images.githubusercontent.com/74038190/221352987-68da234d-4d62-4e9d-9d7f-098dc657c2dc.gif" width="100%" height="100">
+" />
 </p>
 
 <!-- Banner -->
