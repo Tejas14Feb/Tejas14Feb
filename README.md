@@ -132,9 +132,9 @@
   </a>
 </p>
 
-<!-- Space Shooter -->
+<!-- Cool Stats Visualization -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
+  <img src="[https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph](https://user-images.githubusercontent.com/74038190/221352987-68da234d-4d62-4e9d-9d7f-098dc657c2dc.gif)" />
 </p>
 
 <!-- Banner -->
