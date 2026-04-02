@@ -8,7 +8,7 @@
 - ⚙️ Data Engineering: ETL/ELT pipeline design · Cloud-based data platforms · Schema architecture · Data infrastructure & automation
 - 🔬 Data Science: Statistical & ML modeling · Bayesian inference · Predictive analytics · Explainable AI (XAI)
 - 📊 Business Analytics: Data visualization · Business intelligence · Decision frameworks · Consulting & stakeholder delivery
-- 🎯 Interests: Data-Driven Systems · Supply Chain Analytics · Explainable AI · AI/ML Research
+- 🎯 Interests: Data-Driven Systems · Supply Chain Intelligence · Explainable AI · AI/ML Research
 - 📜 Certificates: In Progress
 - 🏆 Achievements: Coming soon
 
