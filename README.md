@@ -16,20 +16,21 @@
 
 | Project | Description | Links |
 |---|---|---|
-| Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus | Bayesian statistical modeling of phosphorus concentration-discharge (C–Q) relationships using conjugate Bayesian regression in Python. | [GitHub](https://github.com/Tejas14Feb/bayesian-cq-analysis) |
 | End-to-End ML Pipeline (Spotify) | Predict whether a song will be a chart hit based on its audio features. | [GitHub](https://github.com/Tejas14Feb/spotify-ml-project) |
-
-### Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus
-
-<img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/2041ce794862d684e80bccac48859d04d853d2a5/Project-Previews/bayesian-cq-analysis-preview.png" alt="Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus" width="500"/>
-
-**Technologies Used:** Python, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Conjugate Bayesian Regression (Normal-Inverse-Gamma), Jupyter Notebook
+| Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus | Bayesian statistical modeling of phosphorus concentration-discharge (C–Q) relationships using conjugate Bayesian regression in Python. | [GitHub](https://github.com/Tejas14Feb/bayesian-cq-analysis) |
 
 ### End-to-End ML Pipeline (Spotify)
 
 <img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/c1a34edf78ab98e35b9697bbfae799b51f4df2bd/Project-Previews/spotify-ml-project-preview.png" alt="End-to-End ML Pipeline (Spotify)" width="500"/>
 
 **Technologies Used:** Python, Pandas, Sckikit-learn, XGBoost, Plotly Dash, NumPy, DuckDB, Model Serialization (Pickle), Jupyter Notebook
+
+
+### Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus
+
+<img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/2041ce794862d684e80bccac48859d04d853d2a5/Project-Previews/bayesian-cq-analysis-preview.png" alt="Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus" width="500"/>
+
+**Technologies Used:** Python, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Conjugate Bayesian Regression (Normal-Inverse-Gamma), Jupyter Notebook
 
 ---
 
