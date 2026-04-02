@@ -115,3 +115,5 @@
 
 <!-- Banner -->
 <img src="Banner_Tejas.png" alt="Banner" width="100%" />
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tejas14Feb&hide=jupyter%20notebook&layout=compact&theme=radical&langs_count=8)
