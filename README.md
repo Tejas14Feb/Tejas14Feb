@@ -22,20 +22,6 @@
 
 <br>
 
-##  Projects
-
-| Project | Description | Links |
-|---|---|---|
-| End-to-End ML Pipeline (Spotify) | Predicts whether a song will be a chart hit based on its audio features.  | [GitHub](https://github.com/Tejas14Feb/spotify-ml-project) |
-
-### End-to-End ML Pipeline (Spotify)
-
-<img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/c1a34edf78ab98e35b9697bbfae799b51f4df2bd/Project-Previews/spotify-ml-project-preview.png" alt="End-to-End ML Pipeline (Spotify)" width="500"/>
-
----
-
-<div align="center">
-
 
 ## Tech Stack
 
