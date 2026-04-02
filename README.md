@@ -12,6 +12,16 @@
 - 📜 Certificates: In Progress
 - 🏆 Achievements: Coming soon
 
+## Live Portfolio
+
+<div align="center">
+  <a href="https://Tejas14Feb.github.io/Tejas14Feb.github.io" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/🌐%20View%20Interactive%20Portfolio-FF6B00?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E1E" alt="View Portfolio" height="55" />
+  </a>
+</div>
+
+<br>
+
 ##  Projects
 
 | Project | Description | Links |
@@ -36,15 +46,33 @@
 
 <div align="center">
 
-## Live Portfolio
+## 💼 Work Experience
 
-<div align="center">
-  <a href="https://Tejas14Feb.github.io/Tejas14Feb.github.io" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/🌐%20View%20Interactive%20Portfolio-FF6B00?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E1E" alt="View Portfolio" height="55" />
-  </a>
-</div>
+| Company | Position | Duration |
+|---|---|---|
+| South Dakota Manufacturing & Technology Solution | Supply Chain Data & Analytics Consultant | 2025-08 - Present |
 
-<br>
+### Supply Chain Data & Analytics Consultant at South Dakota Manufacturing & Technology Solution
+*Remote, US*
+
+Architected end-to-end feature engineering pipelines (Python/SQL) to process 2,000+ enterprise records, reducing data-processing latency by 70% and ensuring high-fidelity inputs for downstream modeling.
+Developed predictive diagnostic tools to track operational efficiency and regional benchmarks, improving leadership decision-making speed by 45% through high-signal data insights.
+Applied statistical anomaly detection on multi-source datasets to surface GTM performance signals and identify outliers, translating complex data patterns into narrative-driven stakeholder reports.
+
+Languages: Python (Pandas, NumPy, Scikit-Learn), SQL (PostgreSQL/BigQuery).
+Machine Learning: Supervised/Unsupervised Learning, Feature Engineering, Anomaly Detection, Hyperparameter Tuning.
+Data Engineering & Analytics: ETL Pipelines, Power BI, Power Query, Data Modeling (Schemas).
+Tools & Version Control: Git/GitHub, VS Code, Jupyter Notebooks.
+
+
+**Technologies:** Python (Pandas, NumPy, Scikit-Learn), SQL (PostgreSQL/BigQuery), Supervised/Unsupervised Learning, Feature Engineering, Anomaly Detection, Hyperparameter Tuning, ETL Pipelines, Power BI, Power Query, Data Modeling (Schemas), Git/GitHub, Jupyter Notebooks, Google Colab
+
+**Key Achievements:**
+- Cloud Infrastructure: Migrated legacy Excel reporting to a Cloud-based Supply Chain mapping tool, architecting a scalable data model for real-time geospatial analytics.
+- Pipeline Automation: Engineered Python/SQL feature pipelines for whole South Dakota records, reducing manual data-processing latency by 70% for downstream modeling.
+- Decision Intelligence: Developed predictive diagnostic frameworks that improved leadership decision-making speed by 45% through high-signal KPI tracking.
+
+
 
 
 ## Tech Stack
