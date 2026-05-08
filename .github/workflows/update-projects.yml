@@ -1,0 +1,65 @@
+name: Update Projects Table
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Projects Table
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const username = context.repo.owner;
+
+            const { data: repos } = await github.rest.repos.listForUser({
+              username,
+              sort: 'updated',
+              per_page: 100
+            });
+
+            const filtered = repos.filter(repo =>
+              !repo.fork &&
+              repo.name !== username
+            );
+
+            let table = `
+| Project | Description | Links |
+|---|---|---|
+`;
+
+            for (const repo of filtered) {
+              table += `| ${repo.name} | ${repo.description || 'No description'} | [GitHub](${repo.html_url}) |\n`;
+            }
+
+            const readme = fs.readFileSync('README.md', 'utf8');
+
+            const updated = readme.replace(
+              /<!-- PROJECTS_TABLE:START -->(.|\\n|\\r)*<!-- PROJECTS_TABLE:END -->/,
+              `<!-- PROJECTS_TABLE:START -->\n${table}\n<!-- PROJECTS_TABLE:END -->`
+            );
+
+            fs.writeFileSync('README.md', updated);
+
+      - name: Commit Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add README.md
+
+          git commit -m "Auto-update projects table" || exit 0
+
+          git push
