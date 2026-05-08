@@ -8,12 +8,10 @@
 
 <br>
 
-##  Projects
+## Projects
 
-| Project | Description | Links |
-|---|---|---|
-| End-to-End ML Pipeline (Spotify) | Predict whether a song will be a chart hit based on its audio features. | [GitHub](https://github.com/Tejas14Feb/spotify-ml-project) |
-| Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus | Bayesian statistical modeling of phosphorus concentration-discharge (C–Q) relationships using conjugate Bayesian regression in Python. | [GitHub](https://github.com/Tejas14Feb/bayesian-cq-analysis) |
+<!-- PROJECTS_TABLE:START -->
+<!-- PROJECTS_TABLE:END -->
 
 ## Tech Stack
 
