@@ -1,5 +1,43 @@
+## Popular repositories
 
+| Repository | Description | Language |
+|---|---|---|
+| [bayesian-cq-analysis](https://github.com/Tejas14Feb/bayesian-cq-analysis) | Bayesian CQ analysis project | Jupyter Notebook |
+| [Tejas14Feb](https://github.com/Tejas14Feb/Tejas14Feb) | Profile repository | — |
+| [spotify-ml-project](https://github.com/Tejas14Feb/spotify-ml-project) | Spotify machine learning project | Jupyter Notebook |
+| [iot-ecg-anomaly](https://github.com/Tejas14Feb/iot-ecg-anomaly) | ECG anomaly detection using IoT | Python |
+| [job-market-pulse](https://github.com/Tejas14Feb/job-market-pulse) | Job market analytics project | — |
+| [Tejas14Feb.github.io](https://github.com/Tejas14Feb/Tejas14Feb.github.io) | Personal portfolio website | HTML |
 
+---
+
+## GitHub Contributions
+
+![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Tejas14Feb&theme=github-dark)
+
+---
+
+## Contribution Activity
+
+### May 2026
+
+- Created **4 commits** in **2 repositories**
+  - [`Tejas14Feb.github.io`](https://github.com/Tejas14Feb/Tejas14Feb.github.io) — 3 commits
+  - [`Tejas14Feb`](https://github.com/Tejas14Feb/Tejas14Feb) — 1 commit
+
+- Created **1 repository**
+  - [`Tejas14Feb.github.io`](https://github.com/Tejas14Feb/Tejas14Feb.github.io)
+
+---
+
+## Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tejas14Feb&show_icons=true&theme=github_dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tejas14Feb&layout=compact&theme=github_dark)
+
+---
+--------------------  ------------------------  ----------------------------
 
 
 ## Live Portfolio
