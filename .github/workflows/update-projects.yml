@@ -25,7 +25,7 @@ jobs:
             const username = context.repo.owner;
 
             const { data: repos } = await github.rest.repos.listForUser({
-              username,
+              username: username,
               sort: 'updated',
               per_page: 100
             });
@@ -35,9 +35,8 @@ jobs:
               repo.name !== username
             );
 
-            let table = `| Project | Description | Links |
-|---|---|---|
-`;
+            let table = '| Project | Description | Links |\n';
+            table += '|---|---|---|\n';
 
             for (const repo of filtered) {
               table += `| ${repo.name} | ${repo.description || 'No description'} | [GitHub](${repo.html_url}) |\n`;
@@ -49,11 +48,14 @@ jobs:
             const start = '<!-- PROJECTS_TABLE:START -->';
             const end = '<!-- PROJECTS_TABLE:END -->';
 
-            const newSection = `${start}\n${table}\n${end}`;
+            const regex = new RegExp(
+              `${start}[\\s\\S]*${end}`,
+              'm'
+            );
 
-            const regex = new RegExp(`${start}[\\s\\S]*${end}`, 'm');
+            const replacement = `${start}\n${table}\n${end}`;
 
-            readme = readme.replace(regex, newSection);
+            readme = readme.replace(regex, replacement);
 
             fs.writeFileSync(readmePath, readme);
 
