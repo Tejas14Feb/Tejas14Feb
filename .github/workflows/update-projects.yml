@@ -5,12 +5,12 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout Repository
@@ -35,8 +35,7 @@ jobs:
               repo.name !== username
             );
 
-            let table = `
-| Project | Description | Links |
+            let table = `| Project | Description | Links |
 |---|---|---|
 `;
 
@@ -44,14 +43,22 @@ jobs:
               table += `| ${repo.name} | ${repo.description || 'No description'} | [GitHub](${repo.html_url}) |\n`;
             }
 
-            const readme = fs.readFileSync('README.md', 'utf8');
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
 
-            const updated = readme.replace(
-              /<!-- PROJECTS_TABLE:START -->(.|\\n|\\r)*<!-- PROJECTS_TABLE:END -->/,
-              `<!-- PROJECTS_TABLE:START -->\n${table}\n<!-- PROJECTS_TABLE:END -->`
+            const start = '<!-- PROJECTS_TABLE:START -->';
+            const end = '<!-- PROJECTS_TABLE:END -->';
+
+            const newSection = `${start}\n${table}\n${end}`;
+
+            const regex = new RegExp(
+              `${start}[\\s\\S]*${end}`,
+              'm'
             );
 
-            fs.writeFileSync('README.md', updated);
+            readme = readme.replace(regex, newSection);
+
+            fs.writeFileSync(readmePath, readme);
 
       - name: Commit Changes
         run: |
@@ -60,6 +67,6 @@ jobs:
 
           git add README.md
 
-          git commit -m "Auto-update projects table" || exit 0
+          git diff --cached --quiet || git commit -m "Auto-update projects table"
 
           git push
