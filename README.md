@@ -1,45 +1,3 @@
-## Popular repositories
-
-| Repository | Description | Language |
-|---|---|---|
-| [bayesian-cq-analysis](https://github.com/Tejas14Feb/bayesian-cq-analysis) | Bayesian CQ analysis project | Jupyter Notebook |
-| [Tejas14Feb](https://github.com/Tejas14Feb/Tejas14Feb) | Profile repository | — |
-| [spotify-ml-project](https://github.com/Tejas14Feb/spotify-ml-project) | Spotify machine learning project | Jupyter Notebook |
-| [iot-ecg-anomaly](https://github.com/Tejas14Feb/iot-ecg-anomaly) | ECG anomaly detection using IoT | Python |
-| [job-market-pulse](https://github.com/Tejas14Feb/job-market-pulse) | Job market analytics project | — |
-| [Tejas14Feb.github.io](https://github.com/Tejas14Feb/Tejas14Feb.github.io) | Personal portfolio website | HTML |
-
----
-
-## GitHub Contributions
-
-![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Tejas14Feb&theme=github-dark)
-
----
-
-## Contribution Activity
-
-### May 2026
-
-- Created **4 commits** in **2 repositories**
-  - [`Tejas14Feb.github.io`](https://github.com/Tejas14Feb/Tejas14Feb.github.io) — 3 commits
-  - [`Tejas14Feb`](https://github.com/Tejas14Feb/Tejas14Feb) — 1 commit
-
-- Created **1 repository**
-  - [`Tejas14Feb.github.io`](https://github.com/Tejas14Feb/Tejas14Feb.github.io)
-
----
-
-## Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tejas14Feb&show_icons=true&theme=github_dark)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tejas14Feb&layout=compact&theme=github_dark)
-
----
---------------------  ------------------------  ----------------------------
-
-
 ## Live Portfolio
 
 <div align="center">
@@ -56,23 +14,6 @@
 |---|---|---|
 | End-to-End ML Pipeline (Spotify) | Predict whether a song will be a chart hit based on its audio features. | [GitHub](https://github.com/Tejas14Feb/spotify-ml-project) |
 | Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus | Bayesian statistical modeling of phosphorus concentration-discharge (C–Q) relationships using conjugate Bayesian regression in Python. | [GitHub](https://github.com/Tejas14Feb/bayesian-cq-analysis) |
-
-### End-to-End ML Pipeline (Spotify)
-
-<img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/c1a34edf78ab98e35b9697bbfae799b51f4df2bd/Project-Previews/spotify-ml-project-preview.png" alt="End-to-End ML Pipeline (Spotify)" width="500"/>
-
-**Technologies Used:** Python, Pandas, Sckikit-learn, XGBoost, Plotly Dash, NumPy, DuckDB, Model Serialization (Pickle), Jupyter Notebook
-
-
-### Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus
-
-<img src="https://github.com/Tejas14Feb/Tejas14Feb/blob/2041ce794862d684e80bccac48859d04d853d2a5/Project-Previews/bayesian-cq-analysis-preview.png" alt="Bayesian Concentration–Discharge (C–Q) Analysis for Phosphorus" width="500"/>
-
-**Technologies Used:** Python, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Conjugate Bayesian Regression (Normal-Inverse-Gamma), Jupyter Notebook
-
----
-
-<div align="center">
 
 ## Tech Stack
 
