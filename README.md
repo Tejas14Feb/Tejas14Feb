@@ -8,18 +8,6 @@
 
 <br>
 
-## Projects
-
-<!-- PROJECTS_TABLE:START -->
-| Project | Description | Links |
-|---|---|---|
-| Tejas14Feb.github.io | No description | [GitHub](https://github.com/Tejas14Feb/Tejas14Feb.github.io) |
-| job-market-pulse | No description | [GitHub](https://github.com/Tejas14Feb/job-market-pulse) |
-| iot-ecg-anomaly | No description | [GitHub](https://github.com/Tejas14Feb/iot-ecg-anomaly) |
-| bayesian-cq-analysis | No description | [GitHub](https://github.com/Tejas14Feb/bayesian-cq-analysis) |
-| spotify-ml-project | No description | [GitHub](https://github.com/Tejas14Feb/spotify-ml-project) |
-
-<!-- PROJECTS_TABLE:END -->
 
 ## Tech Stack
 
