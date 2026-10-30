@@ -3,41 +3,41 @@
 
 I build data pipelines and dashboards that help people make better decisions. At The Bancorp Bank, I built KPI and KRI dashboards and executive reporting from governance data. I'm especially interested in agentic AI and automated workflows.
 
-![Open to full-time roles](https://img.shields.io/badge/Open%20to%20full--time%20roles-May%202027-2EA44F?style=flat-square)
+![Open to full-time roles](https://img.shields.io/badge/Open_to_full--time_roles-May_2027-2EA44F?style=flat-square)
 
 ---
 
 ## Tech stack
 
 **Languages**  
-![Python](https://img.shields.io/badge/Python-24292F?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-24292F?style=flat-square&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-24292F?style=flat-square&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 **Data analysis and visualization**  
-![pandas](https://img.shields.io/badge/pandas-24292F?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-24292F?style=flat-square&logo=numpy&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-24292F?style=flat-square)
-![Tableau](https://img.shields.io/badge/Tableau-24292F?style=flat-square&logo=tableau&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-24292F?style=flat-square&logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-24292F?style=flat-square)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
 
 **Machine learning**  
-![scikit-learn](https://img.shields.io/badge/scikit--learn-24292F?style=flat-square&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-24292F?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 **Databases**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-24292F?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-24292F?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 **Tools**  
-![Git](https://img.shields.io/badge/Git-24292F?style=flat-square&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-24292F?style=flat-square&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-24292F?style=flat-square&logo=googlecolab&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-24292F?style=flat-square&logo=linux&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-24292F?style=flat-square&logo=jira&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 
 ---
 
@@ -99,6 +99,3 @@ I build data pipelines and dashboards that help people make better decisions. At
     </td>
   </tr>
 </table>
-```
-
-All `YOUR_USERNAME` instances are now `Tejas14Feb`. Everything else is unchanged.
