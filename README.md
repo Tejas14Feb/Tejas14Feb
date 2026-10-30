@@ -1,5 +1,7 @@
-# Hi, I'm Tejas Budharamu
+Here's the fixed version with your username filled in. Project section left as placeholders as requested:
 
+```markdown
+# Hi, I'm Tejas Budharamu
 **Data and analytics engineering** · Computer Science + Business Analytics at the University of South Dakota · Graduating May 2027
 
 I build data pipelines and dashboards that help people make better decisions. At The Bancorp Bank, I built KPI and KRI dashboards and executive reporting from governance data. I'm especially interested in agentic AI and automated workflows.
@@ -10,15 +12,13 @@ I build data pipelines and dashboards that help people make better decisions. At
 
 ## Tech stack
 
-**Languages**
-
+**Languages**  
 ![Python](https://img.shields.io/badge/Python-24292F?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
 ![R](https://img.shields.io/badge/R-24292F?style=flat-square&logo=r&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-24292F?style=flat-square&logo=javascript&logoColor=white)
 
-**Data analysis and visualization**
-
+**Data analysis and visualization**  
 ![pandas](https://img.shields.io/badge/pandas-24292F?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-24292F?style=flat-square&logo=numpy&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-24292F?style=flat-square)
@@ -26,19 +26,16 @@ I build data pipelines and dashboards that help people make better decisions. At
 ![Plotly](https://img.shields.io/badge/Plotly-24292F?style=flat-square&logo=plotly&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-24292F?style=flat-square)
 
-**Machine learning**
-
+**Machine learning**  
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-24292F?style=flat-square&logo=scikitlearn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-24292F?style=flat-square&logo=pytorch&logoColor=white)
 
-**Databases**
-
+**Databases**  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292F?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-24292F?style=flat-square&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-24292F?style=flat-square&logo=sqlite&logoColor=white)
 
-**Tools**
-
+**Tools**  
 ![Git](https://img.shields.io/badge/Git-24292F?style=flat-square&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-24292F?style=flat-square&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-24292F?style=flat-square&logo=googlecolab&logoColor=white)
@@ -52,17 +49,17 @@ I build data pipelines and dashboards that help people make better decisions. At
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://github.com/YOUR_USERNAME/REPO_ONE">Project one</a></b><br><br>
+      <b><a href="https://github.com/Tejas14Feb/REPO_ONE">Project one</a></b><br><br>
       One sentence on the problem, what you built, and the result.<br><br>
       <sub>Python · SQL</sub>
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://github.com/YOUR_USERNAME/REPO_TWO">Project two</a></b><br><br>
+      <b><a href="https://github.com/Tejas14Feb/REPO_TWO">Project two</a></b><br><br>
       One sentence on the problem, what you built, and the result.<br><br>
       <sub>Power BI · R</sub>
     </td>
     <td width="33%" valign="top">
-      <b><a href="https://github.com/YOUR_USERNAME/REPO_THREE">Project three</a></b><br><br>
+      <b><a href="https://github.com/Tejas14Feb/REPO_THREE">Project three</a></b><br><br>
       One sentence on the problem, what you built, and the result.<br><br>
       <sub>PyTorch</sub>
     </td>
@@ -73,7 +70,7 @@ I build data pipelines and dashboards that help people make better decisions. At
 
 ## Activity
 
-![Contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=8b949e&line=2ea44f&point=e6edf3&area=true&hide_border=true&hide_title=true)
+![Contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=Tejas14Feb&bg_color=0d1117&color=8b949e&line=2ea44f&point=e6edf3&area=true&hide_border=true&hide_title=true)
 
 ---
 
@@ -105,3 +102,6 @@ I build data pipelines and dashboards that help people make better decisions. At
     </td>
   </tr>
 </table>
+```
+
+All `YOUR_USERNAME` instances are now `Tejas14Feb`. Everything else is unchanged.
