@@ -1,6 +1,3 @@
-Here's the fixed version with your username filled in. Project section left as placeholders as requested:
-
-```markdown
 # Hi, I'm Tejas Budharamu
 **Data and analytics engineering** · Computer Science + Business Analytics at the University of South Dakota · Graduating May 2027
 
