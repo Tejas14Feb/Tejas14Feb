@@ -1,18 +1,12 @@
-<div align="center">
+Tejas Budharamu
 
-# Tejas Budharamu
+Analytics Engineering  ·  Data Engineering  ·  Applied AI
 
-**I turn messy data into metrics people trust.**
+Computer Science, Business Analytics Minor  |  University of South Dakota  |  May 2027
 
-Computer Science + Business Analytics @ University of South Dakota &nbsp;|&nbsp; Class of 2027
+<a href="https://www.linkedin.com/in/tejas-budharamu-b64984276/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/LINKEDIN-ffffff?style=flat-square" alt="LINKEDIN"/></picture></a> <a href="mailto:Tejasbudharamu@outlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square" alt="EMAIL"/></picture></a> <img src="https://img.shields.io/badge/OPEN%20TO%20FULL--TIME%20ROLES-2027-FF9933?style=flat-square&labelColor=000000" alt="Open to full-time roles, 2027"/>
 
-<a href="https://www.linkedin.com/in/tejas-budharamu-b64984276/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/LINKEDIN-ffffff?style=flat-square" alt="LINKEDIN"/></picture></a>
-<a href="mailto:Tejasbudharamu@outlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square" alt="EMAIL"/></picture></a>
-<img src="https://img.shields.io/badge/OPEN%20TO%20FULL--TIME%20ROLES-2027-FF9933?style=flat-square&labelColor=000000" alt="Open to full-time roles, 2027"/>
-
-</div>
-
-<br>
+</div> <br>
 
 ### 01 · whoami
 
