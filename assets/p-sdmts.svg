@@ -3,11 +3,6 @@
 text { fill: #0d1117; }
 .m { fill: #57606a; }
 .a { fill: #C46A00; }
-.flow { stroke-dasharray: 5 7; animation: flow 1.6s linear infinite; }
-@keyframes flow { to { stroke-dashoffset: -24; } }
-.blink { animation: blink 1.1s steps(1) infinite; }
-@keyframes blink { 50% { opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .flow, .blink { animation: none; } }
 
 </style>
 <rect width="490" height="230" fill="#ffffff"/>

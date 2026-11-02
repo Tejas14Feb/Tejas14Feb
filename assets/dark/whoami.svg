@@ -1,41 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 528" width="1000" height="528" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
 <style>
-text { fill: #e6edf3; }
-.m { fill: #8b949e; }
+text { fill: #f0f0f0; }
+.m { fill: #9a9a9a; }
 .a { fill: #FF9933; }
-.flow { stroke-dasharray: 5 7; animation: flow 1.6s linear infinite; }
-@keyframes flow { to { stroke-dashoffset: -24; } }
-.blink { animation: blink 1.1s steps(1) infinite; }
-@keyframes blink { 50% { opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .flow, .blink { animation: none; } }
 
 </style>
-<rect width="1000" height="528" fill="#0d1117"/>
-<rect x="40.5" y="20.5" width="919" height="466" fill="#0d1117" stroke="#30363d"/>
-<line x1="40" y1="56" x2="960" y2="56" stroke="#30363d"/>
-<text x="64" y="44" font-size="13" text-anchor="start" font-weight="400" letter-spacing="0" class="m">tejas@usd: ~</text>
-<text x="936" y="44" font-size="13" text-anchor="end" font-weight="400" letter-spacing="0" class="m">zsh</text>
-<text x="64" y="96" font-size="16" text-anchor="start" font-weight="700" letter-spacing="0" class="a">$</text>
-<text x="84" y="96" font-size="16" text-anchor="start" font-weight="600" letter-spacing="0">whoami</text>
-<text x="84" y="136" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">name</text>
-<text x="220" y="136" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">tejas budharamu</text>
-<text x="84" y="166" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">school</text>
-<text x="220" y="166" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">university of south dakota, cs + business analytics minor</text>
-<text x="84" y="196" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">grad</text>
-<text x="220" y="196" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">may 2027</text>
-<text x="84" y="226" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">now</text>
-<text x="220" y="226" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">digital accessibility developer assistant @ usd</text>
-<text x="84" y="256" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">before</text>
-<text x="220" y="256" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">it governance analyst @ the bancorp bank</text>
-<text x="84" y="286" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">focus</text>
-<text x="220" y="286" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">analytics engineering, data engineering, applied ai</text>
-<text x="84" y="316" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">building</text>
-<text x="220" y="316" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">public-infrastructure-analytics (dbt + snowflake)</text>
-<text x="84" y="346" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="a">status</text>
-<text x="220" y="346" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">open to full-time roles starting 2027</text>
-<text x="84" y="384" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">I turn messy data into metrics people trust. I like the part of data work where a messy</text>
-<text x="84" y="406" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">spreadsheet becomes a model, a metric, and a decision. I picked a Business Analytics minor next</text>
-<text x="84" y="428" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">to CS because I want to be an engineer who solves real problems, not just writes code.</text>
-<text x="64" y="464" font-size="16" text-anchor="start" font-weight="700" letter-spacing="0" class="a">$</text>
-<rect class="blink" x="84" y="449" width="10" height="19" fill="#FF9933"/>
+<rect width="1000" height="480" fill="#000000"/>
+<rect x="40.5" y="20.5" width="919" height="440" fill="#000000" stroke="#2e2e2e"/>
+<text x="72" y="64" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Name</text>
+<text x="240" y="64" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Tejas Budharamu</text>
+<text x="72" y="94" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">School</text>
+<text x="240" y="94" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">University of South Dakota</text>
+<text x="72" y="124" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Degree</text>
+<text x="240" y="124" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Computer Science, Business Analytics Minor</text>
+<text x="72" y="154" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Graduating</text>
+<text x="240" y="154" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">May 2027</text>
+<text x="72" y="184" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Current</text>
+<text x="240" y="184" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Digital Accessibility Developer Assistant, USD</text>
+<text x="72" y="214" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m"></text>
+<text x="240" y="214" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Data Analyst &amp; Developer, Coyote Business Consulting</text>
+<text x="72" y="244" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Previous</text>
+<text x="240" y="244" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">IT Governance Analyst, The Bancorp Bank</text>
+<text x="72" y="274" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Focus</text>
+<text x="240" y="274" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Analytics Engineering, Data Engineering, Applied AI</text>
+<text x="72" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Building</text>
+<text x="240" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">public-infrastructure-analytics (dbt + Snowflake)</text>
+<text x="72" y="334" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="a">Status</text>
+<text x="240" y="334" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Open to full-time roles starting 2027</text>
+<line x1="72" y1="360" x2="928" y2="360" stroke="#2e2e2e"/>
+<text x="72" y="388" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">I turn messy data into metrics people trust. I like the part of data work where a messy</text>
+<text x="72" y="410" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">spreadsheet becomes a model, a metric, and a decision. I picked a Business Analytics minor next to</text>
+<text x="72" y="432" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">CS because I want to be an engineer who solves real problems, not just writes code.</text>
 </svg>

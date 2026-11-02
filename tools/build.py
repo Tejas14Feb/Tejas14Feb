@@ -12,7 +12,7 @@ TODAY = (2026, 11)
 THEMES = {
     "light": dict(bg="#ffffff", fg="#0d1117", muted="#57606a", line="#d0d7de", box="#ffffff",
                   accent="#FF9933", accent_text="#C46A00", accent_soft="#FFF1E0"),
-    "dark":  dict(bg="#0d1117", fg="#e6edf3", muted="#8b949e", line="#30363d", box="#0d1117",
+    "dark":  dict(bg="#000000", fg="#f0f0f0", muted="#9a9a9a", line="#2e2e2e", box="#000000",
                   accent="#FF9933", accent_text="#FF9933", accent_soft="#2a1d0e"),
 }
 
@@ -22,11 +22,6 @@ def svg(w, h, body, t, extra_css=""):
 text {{ fill: {t["fg"]}; }}
 .m {{ fill: {t["muted"]}; }}
 .a {{ fill: {t["accent_text"]}; }}
-.flow {{ stroke-dasharray: 5 7; animation: flow 1.6s linear infinite; }}
-@keyframes flow {{ to {{ stroke-dashoffset: -24; }} }}
-.blink {{ animation: blink 1.1s steps(1) infinite; }}
-@keyframes blink {{ 50% {{ opacity: 0; }} }}
-@media (prefers-reduced-motion: reduce) {{ .flow, .blink {{ animation: none; }} }}
 {extra_css}
 </style>
 <rect width="{w}" height="{h}" fill="{t["bg"]}"/>
@@ -64,45 +59,42 @@ def section(n, title, t):
     slug = f"~/{n:02d}-{title.replace(' ', '-')}"
     b = [T(40, 74, f"{n:02d}", 64, weight=700),
          T(150, 62, title.upper(), 20, ls=9),
-         f'<line x1="{150 + len(title)*21 + 24}" y1="56" x2="{W - 60 - len(slug)*9}" y2="56" stroke="{t["line"]}"/>',
-         f'<rect x="{150 + len(title)*21 + 24}" y="54" width="28" height="4" fill="{t["accent"]}"/>',
+         f'<line x1="{150 + len(title)*21 + 44}" y1="56" x2="{W - 60 - len(slug)*9}" y2="56" stroke="{t["line"]}"/>',
+         f'<rect x="{150 + len(title)*21 + 44}" y="54" width="28" height="4" fill="{t["accent"]}"/>',
          T(W - 40, 62, slug, 14, "m", "end", ls=1.5)]
     return svg(W, 100, "\n".join(b), t)
 
 # ---------------------------------------------------------------- whoami
 WHOAMI = [
-    ("name", "tejas budharamu"),
-    ("school", "university of south dakota, cs + business analytics minor"),
-    ("grad", "may 2027"),
-    ("now", "digital accessibility developer assistant @ usd"),
-    ("before", "it governance analyst @ the bancorp bank"),
-    ("focus", "analytics engineering, data engineering, applied ai"),
-    ("building", "public-infrastructure-analytics (dbt + snowflake)"),
-    ("status", "open to full-time roles starting 2027"),
+    ("Name", "Tejas Budharamu"),
+    ("School", "University of South Dakota"),
+    ("Degree", "Computer Science, Business Analytics Minor"),
+    ("Graduating", "May 2027"),
+    ("Current", "Digital Accessibility Developer Assistant, USD"),
+    ("", "Data Analyst & Developer, Coyote Business Consulting"),
+    ("Previous", "IT Governance Analyst, The Bancorp Bank"),
+    ("Focus", "Analytics Engineering, Data Engineering, Applied AI"),
+    ("Building", "public-infrastructure-analytics (dbt + Snowflake)"),
+    ("Status", "Open to full-time roles starting 2027"),
 ]
 ABOUT = ("I turn messy data into metrics people trust. I like the part of data work where a messy "
          "spreadsheet becomes a model, a metric, and a decision. I picked a Business Analytics minor "
          "next to CS because I want to be an engineer who solves real problems, not just writes code.")
 
 def whoami(t):
-    b = [f'<rect x="40.5" y="20.5" width="{W-81}" height="440" fill="{t["box"]}" stroke="{t["line"]}"/>',
-         f'<line x1="40" y1="56" x2="{W-40}" y2="56" stroke="{t["line"]}"/>',
-         T(64, 44, "tejas@usd: ~", 13, "m"),
-         T(W - 64, 44, "zsh", 13, "m", "end"),
-         T(64, 96, "$", 16, "a", weight=700), T(84, 96, "whoami", 16, weight=600)]
-    y = 136
+    b = [None]
+    y = 64
     for k, v in WHOAMI:
-        b.append(T(84, y, k, 15, "a" if k == "status" else "m"))
-        b.append(T(220, y, v, 15))
+        b.append(T(72, y, k, 15, "a" if k == "Status" else "m"))
+        b.append(T(240, y, v, 15))
         y += 30
-    y += 8
-    for line in wrap(ABOUT, 96):
-        b.append(T(84, y, line, 14, "m")); y += 22
     y += 14
-    b.append(T(64, y, "$", 16, "a", weight=700))
-    b.append(f'<rect class="blink" x="84" y="{y - 15}" width="10" height="19" fill="{t["accent"]}"/>')
-    b[0] = f'<rect x="40.5" y="20.5" width="{W-81}" height="{y + 22 - 20}" fill="{t["box"]}" stroke="{t["line"]}"/>'
-    return svg(W, y + 64, "\n".join(b), t)
+    b.append(f'<line x1="72" y1="{y - 18}" x2="{W-72}" y2="{y - 18}" stroke="{t["line"]}"/>')
+    y += 10
+    for line in wrap(ABOUT, 98):
+        b.append(T(72, y, line, 14, "m")); y += 22
+    b[0] = f'<rect x="40.5" y="20.5" width="{W-81}" height="{y + 6 - 20}" fill="{t["box"]}" stroke="{t["line"]}"/>'
+    return svg(W, y + 26, "\n".join(b), t)
 
 # ---------------------------------------------------------------- system map (stack)
 NODES = [  # (x, y, title, subtitle)
@@ -123,11 +115,11 @@ GROUPS = [(150, 238, "LANGUAGES"), (500, 108, "DATA ENGINEERING"), (850, 238, "C
 
 def stack(t):
     cx, cy = 500, 440
-    b = [T(40, 40, "SYSTEM MAP  /  RAW DATA TO DECISIONS", 13, ls=4),
+    b = [T(40, 40, "TOOLS AND METHODS BY DOMAIN", 13, ls=4),
          T(W - 40, 40, "FIG. 01", 13, "m", "end", ls=3),
          f'<line x1="40" y1="58" x2="{W-40}" y2="58" stroke="{t["fg"]}"/>']
     for x, y, *_ in NODES:
-        b.append(f'<line class="flow" x1="{cx}" y1="{cy}" x2="{x}" y2="{y}" stroke="{t["accent"]}" stroke-width="1.4"/>')
+        b.append(f'<line x1="{cx}" y1="{cy}" x2="{x}" y2="{y}" stroke="{t["accent"]}" stroke-width="1.2"/>')
     for x, y, title, sub in NODES:
         w = 228
         b.append(f'<rect x="{x - w/2}" y="{y - 30}" width="{w}" height="60" fill="{t["box"]}" stroke="{t["fg"]}" stroke-width="1.2"/>')
@@ -136,11 +128,10 @@ def stack(t):
     for x, y, g in GROUPS:
         b.append(T(x, y, g, 12, anchor="middle", weight=600, ls=4))
     b.append(f'<rect x="{cx-125}" y="{cy-38}" width="250" height="76" fill="{t["box"]}" stroke="{t["accent"]}" stroke-width="2.4"/>')
-    b.append(T(cx, cy - 6, "TEJAS.SYS", 20, "a", "middle", 700, 3))
-    b.append(T(cx, cy + 20, "data in, decisions out", 12, "m", "middle", ls=0.5))
+    b.append(T(cx, cy - 4, "TEJAS", 22, "a", "middle", 700, 6))
+    b.append(T(cx, cy + 20, "Knowledge Core", 12.5, "m", "middle", ls=1))
     b.append(f'<line x1="40" y1="800" x2="{W-40}" y2="800" stroke="{t["fg"]}"/>')
-    b.append(T(W - 40, 826, "DASHED LINES  /  DATA IN MOTION", 12, "m", "end", ls=4))
-    return svg(W, 846, "\n".join(b), t)
+    return svg(W, 820, "\n".join(b), t)
 
 # ---------------------------------------------------------------- project cards
 PROJECTS = {
@@ -161,6 +152,8 @@ PROJECTS = {
                 ["Python", "SciPy", "Bayesian"]),
 }
 
+LINKED = {"p-spotify", "p-ecg", "p-bayes"}
+
 def card(key, t):
     name, featured, desc, tags = PROJECTS[key]
     w = 1000 if featured else 490
@@ -171,6 +164,8 @@ def card(key, t):
     if featured:
         b.append(f'<rect x="{w-170}" y="26" width="142" height="28" fill="{t["accent"]}"/>')
         b.append(T(w - 99, 45, "IN PROGRESS", 12, anchor="middle", weight=700, ls=2).replace("<text", f'<text style="fill:#000"'))
+    if key in LINKED:
+        b.append(T(w - 28, 46, "view repo  ↗", 12, "a", "end", 600, 1))
     y = 84
     for line in wrap(desc, chars):
         b.append(T(28, y, line, 14, "m")); y += 22
@@ -213,7 +208,7 @@ def timeline(rows, start, end, t, ticks_every=3):
         x1, x2 = X(s), X(e2)
         if live:
             b.append(f'<rect x="{x1}" y="{y+10}" width="{x2-x1}" height="22" fill="{t["accent"]}"/>')
-            b.append(f'<circle class="blink" cx="{x2}" cy="{y+21}" r="5" fill="{t["accent"]}"/>')
+            b.append(f'<circle cx="{x2}" cy="{y+21}" r="5" fill="{t["accent"]}"/>')
         else:
             b.append(f'<rect x="{x1}" y="{y+10}" width="{x2-x1}" height="22" fill="{t["fg"]}"/>')
         for lbl, ss, se in segs:
@@ -232,11 +227,12 @@ def timeline(rows, start, end, t, ticks_every=3):
 EXPERIENCE = [
     ("Digital Accessibility Developer Asst.", "Center for Digital Accessibility, USD", (2026, 8), None, []),
     ("IT Governance Analyst", "The Bancorp Bank, Sioux Falls SD", (2026, 5), (2026, 8), []),
-    ("Data Analyst & Developer", "Coyote Business Consulting, SDMTS", (2025, 8), (2026, 4), []),
+    ("Data Analyst & Developer", "Coyote Business Consulting, SDMTS", (2025, 8), None, []),
     ("Entrepreneur Lead, AI/ML Research", "National Science Foundation I-Corps", (2025, 5), (2025, 7), []),
 ]
 LEADERSHIP = [
-    ("President", "Indian Student Association", (2023, 8), None, []),
+    ("Vice President, then President", "Indian Student Association", (2023, 8), None,
+     [("vice president", (2023, 8), (2025, 5))]),
     ("Peer Mentor", "University of South Dakota", (2023, 8), (2025, 12), []),
     ("Finance Chair & Senator", "Student Government Association", (2024, 2), (2025, 9), []),
     ("President", "Residence Hall Association", (2024, 5), (2026, 5), []),
@@ -249,59 +245,41 @@ LEADERSHIP = [
 
 # ---------------------------------------------------------------- awards
 AWARDS = [
-    ("OUTSTANDING STUDENT", "BUSINESS CONSULTANT", "Coyote Business Consulting", "NOV '25  +  APR '26", "x2"),
-    ("STUDENT AMBASSADOR", "SCHOLARSHIP", "University of South Dakota", "AUG '25  +  JAN '26", "x2"),
-    ("OMA MULTICULTURAL", "EXCELLENCE AWARD", "USD Coyote Excellence Awards", "APR '25", ""),
+    ("Awards", [
+        ("Outstanding Student Business Consultant (2x)", "Coyote Business Consulting", "Nov 2025, Apr 2026"),
+        ("OMA Multicultural Excellence Award", "USD Coyote Excellence Awards", "Apr 2025"),
+        ("Golden Cowbell Pin", "MACURH Regional Leadership Conference", "Oct 2024"),
+    ]),
+    ("Scholarships", [
+        ("Student Ambassador Scholarship (2x)", "University of South Dakota", "Aug 2025, Jan 2026"),
+    ]),
 ]
 
-def trophy(cx, cy, c):
-    return (f'<g fill="none" stroke="{c}" stroke-width="2.2" stroke-linejoin="round">'
-            f'<path d="M{cx-22} {cy-30} h44 v14 a22 22 0 0 1 -44 0 z" fill="{c}"/>'
-            f'<path d="M{cx-22} {cy-24} h-10 a10 10 0 0 0 10 16"/>'
-            f'<path d="M{cx+22} {cy-24} h10 a10 10 0 0 1 -10 16"/>'
-            f'<path d="M{cx} {cy+6} v12"/><path d="M{cx-14} {cy+18} h28 v8 h-28 z" fill="{c}"/></g>')
-
-def laurel(cx, cy, c, flip):
-    import math
-    out = []
-    for i in range(6):
-        ang = math.radians(115 + i * 22)
-        if flip: ang = math.pi - ang
-        x, y = cx + 50 * math.cos(ang), cy + 50 * math.sin(ang)
-        rot = math.degrees(ang) + (90 if not flip else -90) + (-25 if not flip else 25)
-        out.append(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="3.6" ry="9" transform="rotate({rot:.1f} {x:.1f} {y:.1f})" fill="{c}"/>')
-    return "".join(out)
-
 def awards(t):
-    cw, gap, top = 290, 25, 70
-    b = [T(W/2, 36, "★  HALL OF FAME  ★", 16, "a", "middle", 700, 6)]
-    for i, (l1, l2, org, when, mult) in enumerate(AWARDS):
-        x = 40 + i * (cw + gap); cx = x + cw / 2
-        b.append(f'<rect x="{x}" y="{top}" width="{cw}" height="330" fill="{t["box"]}" stroke="{t["accent"]}" stroke-width="1.6"/>')
-        b.append(f'<rect x="{x+6}" y="{top+6}" width="{cw-12}" height="318" fill="none" stroke="{t["line"]}"/>')
-        b.append(T(cx, top + 34, "WINNER", 12, "a", "middle", 700, 4))
-        b.append(trophy(cx, top + 100, t["accent"]))
-        b.append(laurel(cx, top + 92, t["muted"], False) + laurel(cx, top + 92, t["muted"], True))
-        if mult:
-            b.append(f'<rect x="{x+cw-58}" y="{top+18}" width="40" height="22" fill="{t["fg"]}"/>')
-            b.append(T(x + cw - 38, top + 34, mult, 12, anchor="middle", weight=700).replace("<text", f'<text style="fill:{t["bg"]}"'))
-        b.append(f'<line x1="{x+40}" y1="{top+158}" x2="{x+cw-40}" y2="{top+158}" stroke="{t["line"]}"/>')
-        b.append(T(cx, top + 192, l1, 15, anchor="middle", weight=700, ls=1))
-        b.append(T(cx, top + 214, l2, 15, anchor="middle", weight=700, ls=1))
-        b.append(T(cx, top + 252, org, 12, "m", "middle"))
-        b.append(T(cx, top + 296, when, 12, "a", "middle", 600, 2))
-    return svg(W, 420, "\n".join(b), t)
+    b, y = [], 30
+    for group, items in AWARDS:
+        b.append(T(40, y + 14, group.upper(), 13, "a", weight=700, ls=4))
+        b.append(f'<line x1="40" y1="{y+26}" x2="{W-40}" y2="{y+26}" stroke="{t["fg"]}"/>')
+        y += 30
+        for name, org, when in items:
+            b.append(T(40, y + 30, name, 15, weight=700))
+            b.append(T(40, y + 50, org, 12.5, "m"))
+            b.append(T(W - 40, y + 30, when, 13, "m", "end"))
+            b.append(f'<line x1="40" y1="{y+66}" x2="{W-40}" y2="{y+66}" stroke="{t["line"]}" stroke-width="0.6"/>')
+            y += 66
+        y += 30
+    return svg(W, y, "\n".join(b), t)
 
 # ---------------------------------------------------------------- footer
 def footer(t):
     b = [f'<line x1="40" y1="20" x2="{W-40}" y2="20" stroke="{t["line"]}"/>',
-         f'<circle class="blink" cx="48" cy="56" r="6" fill="{t["accent"]}"/>',
+         f'<circle cx="48" cy="56" r="6" fill="{t["accent"]}"/>',
          T(66, 61, "status: open to full-time roles in analytics and data engineering, starting 2027", 14),
          T(W - 40, 61, "~/eof", 13, "m", "end", ls=1)]
     return svg(W, 90, "\n".join(b), t)
 
 # ---------------------------------------------------------------- build
-SECTIONS = [(1, "whoami"), (2, "stack"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards")]
+SECTIONS = [(1, "who am i"), (2, "knowledge core"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards")]
 
 def build():
     for mode, t in THEMES.items():
