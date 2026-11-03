@@ -83,12 +83,11 @@ WHOAMI = [
     ("", "Data Analyst & Developer, Coyote Business Consulting"),
     ("Previous", "IT Governance Analyst, The Bancorp Bank"),
     ("Focus", "Analytics Engineering, Data Engineering, Applied AI"),
-    ("Building", "public-infrastructure-analytics (dbt + Snowflake)"),
     ("Status", "Open to full-time roles starting 2027"),
 ]
-ABOUT = ("I turn messy data into metrics people trust. I like the part of data work where a messy "
-         "spreadsheet becomes a model, a metric, and a decision. I picked a Business Analytics minor "
-         "next to CS because I want to be an engineer who solves real problems, not just writes code.")
+ABOUT = ("I'm data-driven and an AI enthusiast. I love building solutions to real problems "
+         "on a foundation of quality data, then using AI to speed up the work and cut out the "
+         "manual effort.")
 
 def whoami(t):
     b = [None]
@@ -296,7 +295,7 @@ def build():
         files = {"header": header(t), "whoami": whoami(t), "stack": stack(t),
                  "experience": timeline(EXPERIENCE, (2025, 4), (2027, 1), t),
                  "leadership": timeline(LEADERSHIP, (2023, 7), (2027, 1), t, 6),
-                 "awards": awards(t), "footer": footer(t)}
+                 "awards": awards(t)}
         for n, title in SECTIONS:
             files[f"s{n:02d}"] = section(n, title, t)
         for k in BADGES:

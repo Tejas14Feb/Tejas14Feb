@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 428" width="1000" height="428" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
 <style>
 text { fill: #f0f0f0; }
 .m { fill: #9a9a9a; }
 .a { fill: #FF9933; }
 
 </style>
-<rect width="1000" height="480" fill="#000000"/>
-<rect x="40.5" y="20.5" width="919" height="440" fill="#000000" stroke="#2e2e2e"/>
+<rect width="1000" height="428" fill="#000000"/>
+<rect x="40.5" y="20.5" width="919" height="388" fill="#000000" stroke="#2e2e2e"/>
 <text x="72" y="64" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Name</text>
 <text x="240" y="64" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Tejas Budharamu</text>
 <text x="72" y="94" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">School</text>
@@ -23,12 +23,9 @@ text { fill: #f0f0f0; }
 <text x="240" y="244" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">IT Governance Analyst, The Bancorp Bank</text>
 <text x="72" y="274" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Focus</text>
 <text x="240" y="274" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Analytics Engineering, Data Engineering, Applied AI</text>
-<text x="72" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Building</text>
-<text x="240" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">public-infrastructure-analytics (dbt + Snowflake)</text>
-<text x="72" y="334" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="a">Status</text>
-<text x="240" y="334" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Open to full-time roles starting 2027</text>
-<line x1="72" y1="360" x2="928" y2="360" stroke="#2e2e2e"/>
-<text x="72" y="388" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">I turn messy data into metrics people trust. I like the part of data work where a messy</text>
-<text x="72" y="410" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">spreadsheet becomes a model, a metric, and a decision. I picked a Business Analytics minor next to</text>
-<text x="72" y="432" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">CS because I want to be an engineer who solves real problems, not just writes code.</text>
+<text x="72" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0" class="a">Status</text>
+<text x="240" y="304" font-size="15" text-anchor="start" font-weight="400" letter-spacing="0">Open to full-time roles starting 2027</text>
+<line x1="72" y1="330" x2="928" y2="330" stroke="#2e2e2e"/>
+<text x="72" y="358" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">I&#x27;m data-driven and an AI enthusiast. I love building solutions to real problems on a foundation</text>
+<text x="72" y="380" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">of quality data, then using AI to speed up the work and cut out the manual effort.</text>
 </svg>

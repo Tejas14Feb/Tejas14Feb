@@ -9,7 +9,7 @@
 </div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" alt="01 Who Am I"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="Who am I: Tejas Budharamu, Computer Science with a Business Analytics minor at USD, May 2027. Currently a Digital Accessibility Developer Assistant at USD and a Data Analyst & Developer at Coyote Business Consulting, previously IT Governance Analyst at The Bancorp Bank. Focus: analytics engineering, data engineering, applied AI. Open to full-time roles starting 2027."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="Who am I: Tejas Budharamu, Computer Science with a Business Analytics minor at USD, May 2027. Currently a Digital Accessibility Developer Assistant at USD and a Data Analyst & Developer at Coyote Business Consulting, previously IT Governance Analyst at The Bancorp Bank. Focus: analytics engineering, data engineering, applied AI."/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 Knowledge Core"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Knowledge Core map: Python, SQL, R, MATLAB; dbt Core, Snowflake, DuckDB; AWS Lambda, Textract, Bedrock, REST APIs, CI/CD, Git; scikit-learn, XGBoost, PyTorch, Bayesian modeling; Tableau, Power BI, Plotly Dash, Excel, Airtable; LLM tooling, MCP, KPI/KRI design."/></picture>
@@ -54,5 +54,3 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 Awards"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/awards.svg"/><img src="assets/awards.svg" alt="Awards: Outstanding Student Business Consultant twice (Nov 2025, Apr 2026); OMA Multicultural Excellence Award (Apr 2025); Golden Cowbell Pin, MACURH Regional Leadership Conference (Oct 2024). Scholarships: Student Ambassador Scholarship twice (Aug 2025, Jan 2026)."/></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/><img src="assets/footer.svg" alt="Status: open to full-time roles in analytics and data engineering, starting 2027."/></picture>
