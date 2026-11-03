@@ -51,15 +51,16 @@ def header(t):
 
 # ---------------------------------------------------------------- badges
 BADGES = {"b-linkedin": ("LINKEDIN  ↗", ""), "b-email": ("EMAIL  ↗", ""),
-          "b-status": ("OPEN TO FULL-TIME ROLES  ·  ", "2027")}
+          "b-status": ("OPEN TO FULL-TIME ROLES  ·  ", "2027", "  ↗")}
 
 def badge(key, t):
-    main, acc = BADGES[key]
+    main, acc, *rest = BADGES[key]
+    tail = rest[0] if rest else ""
     cw = 13 * 0.6 + 2          # mono char width + letter spacing
-    w = int((len(main) + len(acc)) * cw + 36)
+    w = int((len(main) + len(acc) + len(tail)) * cw + 36)
     body = (f'<rect x="0.5" y="0.5" width="{w-1}" height="37" rx="3" fill="{t["box"]}" stroke="{t["muted"]}" stroke-width="1"/>'
             f'<text x="18" y="24" font-size="13" letter-spacing="2" font-weight="600">{esc(main)}'
-            + (f'<tspan class="a" font-weight="700">{esc(acc)}</tspan>' if acc else "") + '</text>')
+            + (f'<tspan class="a" font-weight="700">{esc(acc)}</tspan>' if acc else "") + esc(tail) + '</text>')
     return svg(w, 38, body, t)
 
 # ---------------------------------------------------------------- section dividers

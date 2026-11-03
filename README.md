@@ -4,7 +4,7 @@
 
 <a href="https://www.linkedin.com/in/tejas-budharamu-b64984276/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-linkedin.svg"/><img src="assets/b-linkedin.svg" height="38" alt="LinkedIn"/></picture></a>
 <a href="mailto:Tejasbudharamu@outlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-email.svg"/><img src="assets/b-email.svg" height="38" alt="Email"/></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-status.svg"/><img src="assets/b-status.svg" height="38" alt="Open to full-time roles, 2027"/></picture>
+<a href="resume/Tejas_Budharamu_Resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/b-status.svg"/><img src="assets/b-status.svg" height="38" alt="Open to full-time roles, 2027. View resume"/></picture></a>
 
 </div>
 
