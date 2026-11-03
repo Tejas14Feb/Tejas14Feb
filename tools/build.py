@@ -43,25 +43,34 @@ def wrap(s, width_chars):
 
 # ---------------------------------------------------------------- header
 def header(t):
-    b = []
-    b.append(T(40, 46, "~/tejas14feb", 13, "m", ls=1))
-    b.append(T(W - 40, 46, "vermillion, sd  ·  usd '27", 13, "m", "end", ls=1))
-    b.append(f'<line x1="40" y1="64" x2="{W-40}" y2="64" stroke="{t["line"]}"/>')
-    b.append(T(40, 140, "TEJAS BUDHARAMU", 56, weight=700, ls=6))
-    b.append(f'<rect x="40" y="162" width="84" height="5" fill="{t["accent"]}"/>')
-    b.append(T(40, 206, "Analytics Engineering  ·  Data Engineering  ·  Applied AI", 19, weight=600, ls=0.5))
-    b.append(T(40, 238, "Computer Science, Business Analytics Minor  |  University of South Dakota  |  May 2027", 14, "m"))
-    b.append(f'<line x1="40" y1="272" x2="{W-40}" y2="272" stroke="{t["line"]}"/>')
-    return svg(W, 292, "\n".join(b), t)
+    b = [T(40, 86, "TEJAS BUDHARAMU", 56, weight=700, ls=6),
+         T(40, 140, "Analytics Engineering  ·  Data Engineering  ·  Applied AI", 19, weight=600, ls=0.5),
+         T(40, 172, "Computer Science, Business Analytics Minor  |  University of South Dakota  |  May 2027", 14, "m"),
+         f'<line x1="40" y1="206" x2="{W-40}" y2="206" stroke="{t["line"]}"/>']
+    return svg(W, 222, "\n".join(b), t)
+
+# ---------------------------------------------------------------- badges
+BADGES = {"b-linkedin": ("LINKEDIN  ↗", ""), "b-email": ("EMAIL  ↗", ""),
+          "b-status": ("OPEN TO FULL-TIME ROLES  ·  ", "2027")}
+
+def badge(key, t):
+    main, acc = BADGES[key]
+    cw = 13 * 0.6 + 2          # mono char width + letter spacing
+    w = int((len(main) + len(acc)) * cw + 36)
+    body = (f'<rect x="0.5" y="0.5" width="{w-1}" height="37" rx="3" fill="{t["box"]}" stroke="{t["muted"]}" stroke-width="1"/>'
+            f'<text x="18" y="24" font-size="13" letter-spacing="2" font-weight="600">{esc(main)}'
+            + (f'<tspan class="a" font-weight="700">{esc(acc)}</tspan>' if acc else "") + '</text>')
+    return svg(w, 38, body, t)
 
 # ---------------------------------------------------------------- section dividers
 def section(n, title, t):
-    slug = f"~/{n:02d}-{title.replace(' ', '-')}"
+    x1 = 520                      # same track start for every section
+    x2 = W - 40
+    frac = n / len(SECTIONS)
     b = [T(40, 74, f"{n:02d}", 64, weight=700),
          T(150, 62, title.upper(), 20, ls=9),
-         f'<line x1="{150 + len(title)*21 + 44}" y1="56" x2="{W - 60 - len(slug)*9}" y2="56" stroke="{t["line"]}"/>',
-         f'<rect x="{150 + len(title)*21 + 44}" y="54" width="28" height="4" fill="{t["accent"]}"/>',
-         T(W - 40, 62, slug, 14, "m", "end", ls=1.5)]
+         f'<line x1="{x1}" y1="56" x2="{x2}" y2="56" stroke="{t["line"]}" stroke-width="2"/>',
+         f'<rect x="{x1}" y="54" width="{(x2 - x1) * frac:.1f}" height="4" fill="{t["accent"]}"/>']
     return svg(W, 100, "\n".join(b), t)
 
 # ---------------------------------------------------------------- whoami
@@ -116,7 +125,6 @@ GROUPS = [(150, 238, "LANGUAGES"), (500, 108, "DATA ENGINEERING"), (850, 238, "C
 def stack(t):
     cx, cy = 500, 440
     b = [T(40, 40, "TOOLS AND METHODS BY DOMAIN", 13, ls=4),
-         T(W - 40, 40, "FIG. 01", 13, "m", "end", ls=3),
          f'<line x1="40" y1="58" x2="{W-40}" y2="58" stroke="{t["fg"]}"/>']
     for x, y, *_ in NODES:
         b.append(f'<line x1="{cx}" y1="{cy}" x2="{x}" y2="{y}" stroke="{t["accent"]}" stroke-width="1.2"/>')
@@ -291,6 +299,8 @@ def build():
                  "awards": awards(t), "footer": footer(t)}
         for n, title in SECTIONS:
             files[f"s{n:02d}"] = section(n, title, t)
+        for k in BADGES:
+            files[k] = badge(k, t)
         for k in PROJECTS:
             files[k] = card(k, t)
         for name, content in files.items():

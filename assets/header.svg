@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 292" width="1000" height="292" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 222" width="1000" height="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
 <style>
 text { fill: #0d1117; }
 .m { fill: #57606a; }
 .a { fill: #C46A00; }
 
 </style>
-<rect width="1000" height="292" fill="#ffffff"/>
-<text x="40" y="46" font-size="13" text-anchor="start" font-weight="400" letter-spacing="1" class="m">~/tejas14feb</text>
-<text x="960" y="46" font-size="13" text-anchor="end" font-weight="400" letter-spacing="1" class="m">vermillion, sd  ·  usd &#x27;27</text>
-<line x1="40" y1="64" x2="960" y2="64" stroke="#d0d7de"/>
-<text x="40" y="140" font-size="56" text-anchor="start" font-weight="700" letter-spacing="6">TEJAS BUDHARAMU</text>
-<rect x="40" y="162" width="84" height="5" fill="#FF9933"/>
-<text x="40" y="206" font-size="19" text-anchor="start" font-weight="600" letter-spacing="0.5">Analytics Engineering  ·  Data Engineering  ·  Applied AI</text>
-<text x="40" y="238" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Computer Science, Business Analytics Minor  |  University of South Dakota  |  May 2027</text>
-<line x1="40" y1="272" x2="960" y2="272" stroke="#d0d7de"/>
+<rect width="1000" height="222" fill="#ffffff"/>
+<text x="40" y="86" font-size="56" text-anchor="start" font-weight="700" letter-spacing="6">TEJAS BUDHARAMU</text>
+<text x="40" y="140" font-size="19" text-anchor="start" font-weight="600" letter-spacing="0.5">Analytics Engineering  ·  Data Engineering  ·  Applied AI</text>
+<text x="40" y="172" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Computer Science, Business Analytics Minor  |  University of South Dakota  |  May 2027</text>
+<line x1="40" y1="206" x2="960" y2="206" stroke="#d0d7de"/>
 </svg>

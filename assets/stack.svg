@@ -7,7 +7,6 @@ text { fill: #0d1117; }
 </style>
 <rect width="1000" height="820" fill="#ffffff"/>
 <text x="40" y="40" font-size="13" text-anchor="start" font-weight="400" letter-spacing="4">TOOLS AND METHODS BY DOMAIN</text>
-<text x="960" y="40" font-size="13" text-anchor="end" font-weight="400" letter-spacing="3" class="m">FIG. 01</text>
 <line x1="40" y1="58" x2="960" y2="58" stroke="#0d1117"/>
 <line x1="500" y1="440" x2="150" y2="290" stroke="#FF9933" stroke-width="1.2"/>
 <line x1="500" y1="440" x2="150" y2="400" stroke="#FF9933" stroke-width="1.2"/>
