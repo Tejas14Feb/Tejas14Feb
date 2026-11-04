@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="1000" height="100" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace">
+<style>
+text { fill: #f0f0f0; }
+.m { fill: #9a9a9a; }
+.a { fill: #FF9933; }
+
+</style>
+<rect width="1000" height="100" fill="#000000"/>
+<text x="40" y="74" font-size="64" text-anchor="start" font-weight="700" letter-spacing="0">07</text>
+<text x="150" y="62" font-size="20" text-anchor="start" font-weight="400" letter-spacing="9">PLAY</text>
+<line x1="520" y1="56" x2="960" y2="56" stroke="#2e2e2e" stroke-width="2"/>
+<rect x="520" y="54" width="440.0" height="4" fill="#FF9933"/>
+</svg>

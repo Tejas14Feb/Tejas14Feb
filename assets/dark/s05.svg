@@ -9,5 +9,5 @@ text { fill: #f0f0f0; }
 <text x="40" y="74" font-size="64" text-anchor="start" font-weight="700" letter-spacing="0">05</text>
 <text x="150" y="62" font-size="20" text-anchor="start" font-weight="400" letter-spacing="9">LEADERSHIP</text>
 <line x1="520" y1="56" x2="960" y2="56" stroke="#2e2e2e" stroke-width="2"/>
-<rect x="520" y="54" width="366.7" height="4" fill="#FF9933"/>
+<rect x="520" y="54" width="314.3" height="4" fill="#FF9933"/>
 </svg>

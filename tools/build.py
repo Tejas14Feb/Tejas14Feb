@@ -242,7 +242,7 @@ LEADERSHIP = [
     ("Vice President, then President", "Indian Student Association", (2023, 8), None,
      [("vice president", (2023, 8), (2025, 5))]),
     ("Peer Mentor", "University of South Dakota", (2023, 8), (2025, 12), []),
-    ("Finance Chair & Senator", "Student Government Association", (2024, 2), (2025, 9), []),
+    ("Finance Chair & Senator", "Student Government Association", (2025, 2), (2025, 9), []),
     ("President", "Residence Hall Association", (2024, 5), (2026, 5), []),
     ("VP for Finance", "Dakota Days", (2024, 5), (2024, 10), []),
     ("Brother", "Delta Sigma Pi, Alpha Eta", (2024, 8), None,
@@ -287,7 +287,7 @@ def footer(t):
     return svg(W, 90, "\n".join(b), t)
 
 # ---------------------------------------------------------------- build
-SECTIONS = [(1, "who am i"), (2, "knowledge core"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards")]
+SECTIONS = [(1, "who am i"), (2, "knowledge core"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards"), (7, "play")]
 
 def build():
     for mode, t in THEMES.items():
