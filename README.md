@@ -54,4 +54,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 Awards"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/awards.svg"/><img src="assets/awards.svg" alt="Awards: Outstanding Student Business Consultant twice (Nov 2025, Apr 2026); OMA Multicultural Excellence Award (Apr 2025); Golden Cowbell Pin, MACURH Regional Leadership Conference (Oct 2024). Scholarships: Student Ambassador Scholarship twice (Aug 2025, Jan 2026)."/></picture>
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 58f3686 (Add impossible tic-tac-toe to profile)
