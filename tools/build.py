@@ -287,7 +287,7 @@ def footer(t):
     return svg(W, 90, "\n".join(b), t)
 
 # ---------------------------------------------------------------- build
-SECTIONS = [(1, "who am i"), (2, "knowledge core"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards"), (7, "play")]
+SECTIONS = [(1, "who am i"), (2, "knowledge core"), (3, "projects"), (4, "experience"), (5, "leadership"), (6, "awards")]
 
 def build():
     for mode, t in THEMES.items():
