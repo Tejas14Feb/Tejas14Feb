@@ -41,13 +41,13 @@
 <summary><b>What I did there</b></summary>
 <br>
 
-Center for Digital Accessibility, USD: backend services and REST APIs for a cloud accessibility platform, plus AWS (Lambda, Textract, Bedrock) pipelines for document parsing and WCAG validation.
+**Center for Digital Accessibility, USD:** backend services and REST APIs for a cloud accessibility platform, plus AWS (Lambda, Textract, Bedrock) pipelines for document parsing and WCAG validation.
 
-The Bancorp Bank: one standard set of KPI/KRI metrics across 14 IT departments, executive dashboards on ServiceNow and Salesforce data, and LLM-based audit bots.
+**The Bancorp Bank:** one standard set of KPI/KRI metrics across 14 IT departments, executive dashboards on ServiceNow and Salesforce data, and LLM-based audit bots.
 
-Coyote Business Consulting, SDMTS: database design and an Excel to Airtable migration, validation pipelines that cut manual processing by 70%, and leadership dashboards.
+**Coyote Business Consulting, SDMTS:** database design and an Excel to Airtable migration, validation pipelines that cut manual processing by 70%, and leadership dashboards.
 
-NSF I-Corps: 50+ interviews with industry leaders turned into GTM analytics, using Python, R, Power BI, and Tableau.
+**NSF I-Corps:** 50+ interviews with industry leaders turned into GTM analytics, using Python, R, Power BI, and Tableau.
 
 </details>
 
