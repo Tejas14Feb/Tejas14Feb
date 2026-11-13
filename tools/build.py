@@ -144,8 +144,8 @@ def stack(t):
 # ---------------------------------------------------------------- project cards
 PROJECTS = {
     "p-infra": ("public-infrastructure-analytics", True,
-                "Five Midwest states of DOT spending (FY2019 to present) from the USAspending API, modeled in Snowflake as a tested dbt star schema with CI/CD, prod auto-deploy, and a daily Airflow pipeline.",
-                ["Python", "dbt Core", "Snowflake", "Airflow", "GitHub Actions", "SQL"]),
+                                "Five Midwest states of DOT spending (FY2019 to present) from USAspending, modeled in Snowflake as a tested dbt star schema with CI/CD and Airflow, and published on Tableau Public.",
+                ["Python", "dbt Core", "Snowflake", "Airflow", "GitHub Actions", "Tableau", "SQL"]),
     "p-sdmts": ("sdmts supply chain mapping tool", False,
                 "Moved a 2,671-record manufacturer database from Excel to Airtable and built the cleaning and validation pipelines behind a live supply chain map.",
                 ["Airtable", "ETL", "Validation"]),

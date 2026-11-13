@@ -21,10 +21,17 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 projects"/></picture>
 
 <p align="center">
-<a href="https://github.com/Tejas14Feb/public-infrastructure-analytics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-infra.svg"/><img src="assets/p-infra.svg" width="100%" alt="public-infrastructure-analytics, shipped: five Midwest states of DOT spending from the USAspending API, modeled in Snowflake as a tested dbt star schema with CI/CD, prod auto-deploy, and a daily Airflow pipeline."/></picture></a>
+<a href="https://github.com/Tejas14Feb/public-infrastructure-analytics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-infra.svg"/><img src="assets/p-infra.svg" width="100%" alt="public-infrastructure-analytics, shipped: five Midwest states of DOT spending from USAspending, modeled in Snowflake as a tested dbt star schema with CI/CD and Airflow, and published on Tableau Public."/></picture></a>
 <br>
-<sub><a href="https://github.com/Tejas14Feb/public-infrastructure-analytics">Repo</a> · <a href="https://tejas14feb.github.io/public-infrastructure-analytics/">dbt Docs and Lineage</a> · 14 models, 59 tests, 78K+ transactions</sub>
+<sub><a href="https://public.tableau.com/app/profile/tejas.budharamu/viz/MidwestDOTInfrastructureSpendingFY2019toPresent/Dashboard">Tableau Dashboard</a> · <a href="https://github.com/Tejas14Feb/public-infrastructure-analytics">Repo</a> · <a href="https://tejas14feb.github.io/public-infrastructure-analytics/">dbt Docs and Lineage</a> · 14 models, 59 tests, 78K+ transactions</sub>
 </p>
+
+<details>
+<summary><b>Dashboard preview</b></summary>
+<br>
+<a href="https://public.tableau.com/app/profile/tejas.budharamu/viz/MidwestDOTInfrastructureSpendingFY2019toPresent/Dashboard"><img src="https://raw.githubusercontent.com/Tejas14Feb/public-infrastructure-analytics/main/dashboard/dashboard.png" width="100%" alt="Tableau Public dashboard: $66.3B in Midwest DOT net obligations FY2019 to FY2026, trends by sector, spending by state, and top contract recipients."/></a>
+</details>
+
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-sdmts.svg"/><img src="assets/p-sdmts.svg" width="49%" alt="SDMTS Supply Chain Mapping Tool: Excel to Airtable migration and validation pipelines."/></picture>
 <a href="https://github.com/Tejas14Feb/spotify-ml-project"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-spotify.svg"/><img src="assets/p-spotify.svg" width="49%" alt="spotify-ml-project: song hit prediction with XGBoost and Plotly Dash."/></picture></a>
