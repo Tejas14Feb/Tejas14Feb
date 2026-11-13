@@ -12,7 +12,7 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="Who am I: Tejas Budharamu, Computer Science with a Business Analytics minor at USD, May 2027. Currently a Digital Accessibility Developer Assistant at USD and a Data Analyst & Developer at Coyote Business Consulting, previously IT Governance Analyst at The Bancorp Bank. Focus: analytics engineering, data engineering, applied AI."/></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 Knowledge Core"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Knowledge Core map: Python, SQL, R, MATLAB; dbt Core, Snowflake, DuckDB; AWS Lambda, Textract, Bedrock, REST APIs, CI/CD, Git; scikit-learn, XGBoost, PyTorch, Bayesian modeling; Tableau, Power BI, Plotly Dash, Excel, Airtable; LLM tooling, MCP, KPI/KRI design."/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Knowledge Core map: Python, SQL, R, MATLAB; dbt Core, Airflow, Snowflake, DuckDB; AWS Lambda, Textract, Bedrock, REST APIs, CI/CD with GitHub Actions, Git; scikit-learn, XGBoost, PyTorch, Bayesian modeling; Tableau, Power BI, Plotly Dash, Excel, Airtable; LLM tooling, MCP, KPI/KRI design."/></picture>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,r,matlab,aws,pytorch,sklearn,git,github,vscode&theme=dark" alt="Python, R, MATLAB, AWS, PyTorch, scikit-learn, Git, GitHub, VS Code"/>
@@ -21,7 +21,9 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 projects"/></picture>
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-infra.svg"/><img src="assets/p-infra.svg" width="100%" alt="public-infrastructure-analytics, in progress: Midwest public infrastructure spending modeled with dbt Core and Snowflake."/></picture>
+<a href="https://github.com/Tejas14Feb/public-infrastructure-analytics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-infra.svg"/><img src="assets/p-infra.svg" width="100%" alt="public-infrastructure-analytics, shipped: five Midwest states of DOT spending from the USAspending API, modeled in Snowflake as a tested dbt star schema with CI/CD, prod auto-deploy, and a daily Airflow pipeline."/></picture></a>
+<br>
+<sub><a href="https://github.com/Tejas14Feb/public-infrastructure-analytics">Repo</a> · <a href="https://tejas14feb.github.io/public-infrastructure-analytics/">dbt Docs and Lineage</a> · 14 models, 59 tests, 78K+ transactions</sub>
 </p>
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/p-sdmts.svg"/><img src="assets/p-sdmts.svg" width="49%" alt="SDMTS Supply Chain Mapping Tool: Excel to Airtable migration and validation pipelines."/></picture>
@@ -39,13 +41,13 @@
 <summary><b>What I did there</b></summary>
 <br>
 
-**Center for Digital Accessibility, USD:** backend services and REST APIs for a cloud accessibility platform, plus AWS (Lambda, Textract, Bedrock) pipelines for document parsing and WCAG validation.
+Center for Digital Accessibility, USD: backend services and REST APIs for a cloud accessibility platform, plus AWS (Lambda, Textract, Bedrock) pipelines for document parsing and WCAG validation.
 
-**The Bancorp Bank:** one standard set of KPI/KRI metrics across 14 IT departments, executive dashboards on ServiceNow and Salesforce data, and LLM-based audit bots.
+The Bancorp Bank: one standard set of KPI/KRI metrics across 14 IT departments, executive dashboards on ServiceNow and Salesforce data, and LLM-based audit bots.
 
-**Coyote Business Consulting, SDMTS:** database design and an Excel to Airtable migration, validation pipelines that cut manual processing by 70%, and leadership dashboards.
+Coyote Business Consulting, SDMTS: database design and an Excel to Airtable migration, validation pipelines that cut manual processing by 70%, and leadership dashboards.
 
-**NSF I-Corps:** 50+ interviews with industry leaders turned into GTM analytics, using Python, R, Power BI, and Tableau.
+NSF I-Corps: 50+ interviews with industry leaders turned into GTM analytics, using Python, R, Power BI, and Tableau.
 
 </details>
 
@@ -54,4 +56,3 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 Awards"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/awards.svg"/><img src="assets/awards.svg" alt="Awards: Outstanding Student Business Consultant twice (Nov 2025, Apr 2026); OMA Multicultural Excellence Award (Apr 2025); Golden Cowbell Pin, MACURH Regional Leadership Conference (Oct 2024). Scholarships: Student Ambassador Scholarship twice (Aug 2025, Jan 2026)."/></picture>
-
