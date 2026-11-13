@@ -9,14 +9,20 @@ text { fill: #f0f0f0; }
 <rect x="1" y="1" width="998" height="188" fill="#000000" stroke="#FF9933" stroke-width="2"/>
 <text x="28" y="46" font-size="20" text-anchor="start" font-weight="700" letter-spacing="0">public-infrastructure-analytics</text>
 <rect x="830" y="26" width="142" height="28" fill="#FF9933"/>
-<text style="fill:#000" x="901" y="45" font-size="12" text-anchor="middle" font-weight="700" letter-spacing="2">IN PROGRESS</text>
-<text x="28" y="84" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Modeling Midwest public infrastructure spending data into clean, tested analytics layers.</text>
-<rect x="28" y="140" width="89.2" height="26" fill="none" stroke="#f0f0f0"/>
-<text x="72.6" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">dbt Core</text>
-<rect x="127.2" y="140" width="97.60000000000001" height="26" fill="none" stroke="#f0f0f0"/>
-<text x="176.0" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">Snowflake</text>
-<rect x="234.8" y="140" width="47.2" height="26" fill="none" stroke="#f0f0f0"/>
-<text x="258.40000000000003" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">SQL</text>
-<rect x="292.0" y="140" width="47.2" height="26" fill="none" stroke="#f0f0f0"/>
-<text x="315.6" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">Git</text>
+<text style="fill:#000" x="901" y="45" font-size="12" text-anchor="middle" font-weight="700" letter-spacing="2">SHIPPED</text>
+<text x="972" y="158" font-size="12" text-anchor="end" font-weight="600" letter-spacing="1" class="a">view repo  ↗</text>
+<text x="28" y="84" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Five Midwest states of DOT spending (FY2019 to present) from the USAspending API, modeled in</text>
+<text x="28" y="106" font-size="14" text-anchor="start" font-weight="400" letter-spacing="0" class="m">Snowflake as a tested dbt star schema with CI/CD, prod auto-deploy, and a daily Airflow pipeline.</text>
+<rect x="28" y="140" width="72.4" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="64.2" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">Python</text>
+<rect x="110.4" y="140" width="89.2" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="155.0" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">dbt Core</text>
+<rect x="209.60000000000002" y="140" width="97.60000000000001" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="258.40000000000003" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">Snowflake</text>
+<rect x="317.20000000000005" y="140" width="80.80000000000001" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="357.6" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">Airflow</text>
+<rect x="408.00000000000006" y="140" width="139.60000000000002" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="477.80000000000007" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">GitHub Actions</text>
+<rect x="557.6000000000001" y="140" width="47.2" height="26" fill="none" stroke="#f0f0f0"/>
+<text x="581.2000000000002" y="158" font-size="12" text-anchor="middle" font-weight="400" letter-spacing="0">SQL</text>
 </svg>

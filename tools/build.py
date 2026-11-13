@@ -109,10 +109,10 @@ def whoami(t):
 NODES = [  # (x, y, title, subtitle)
     (150, 290, "python", "pandas · numpy · seaborn"),
     (150, 400, "sql · r · matlab", "querying · statistics"),
-    (370, 165, "dbt core", "layered models · etl/elt"),
+    (370, 165, "dbt core · airflow", "star schema · tests · dags"),
     (630, 165, "snowflake · duckdb", "warehouse · local analytics"),
     (850, 290, "aws", "lambda · textract · bedrock"),
-    (850, 400, "rest apis · ci/cd", "backend · deployment · git"),
+    (850, 400, "rest apis · ci/cd", "github actions · deploy · git"),
     (850, 590, "scikit-learn · xgboost", "classification · forecasting"),
     (850, 700, "pytorch · bayesian", "lstm autoencoders · a/b tests"),
     (500, 705, "tableau · power bi", "plotly dash · excel · airtable"),
@@ -144,8 +144,8 @@ def stack(t):
 # ---------------------------------------------------------------- project cards
 PROJECTS = {
     "p-infra": ("public-infrastructure-analytics", True,
-                "Modeling Midwest public infrastructure spending data into clean, tested analytics layers.",
-                ["dbt Core", "Snowflake", "SQL", "Git"]),
+                "Five Midwest states of DOT spending (FY2019 to present) from the USAspending API, modeled in Snowflake as a tested dbt star schema with CI/CD, prod auto-deploy, and a daily Airflow pipeline.",
+                ["Python", "dbt Core", "Snowflake", "Airflow", "GitHub Actions", "SQL"]),
     "p-sdmts": ("sdmts supply chain mapping tool", False,
                 "Moved a 2,671-record manufacturer database from Excel to Airtable and built the cleaning and validation pipelines behind a live supply chain map.",
                 ["Airtable", "ETL", "Validation"]),
@@ -160,7 +160,8 @@ PROJECTS = {
                 ["Python", "SciPy", "Bayesian"]),
 }
 
-LINKED = {"p-spotify", "p-ecg", "p-bayes"}
+LINKED = {"p-infra", "p-spotify", "p-ecg", "p-bayes"}
+FEATURED_STATUS = "SHIPPED"
 
 def card(key, t):
     name, featured, desc, tags = PROJECTS[key]
@@ -171,9 +172,10 @@ def card(key, t):
          T(28, 46, name, 20 if featured else 17, weight=700)]
     if featured:
         b.append(f'<rect x="{w-170}" y="26" width="142" height="28" fill="{t["accent"]}"/>')
-        b.append(T(w - 99, 45, "IN PROGRESS", 12, anchor="middle", weight=700, ls=2).replace("<text", f'<text style="fill:#000"'))
+        b.append(T(w - 99, 45, FEATURED_STATUS, 12, anchor="middle", weight=700, ls=2).replace("<text", f'<text style="fill:#000"'))
     if key in LINKED:
-        b.append(T(w - 28, 46, "view repo  ↗", 12, "a", "end", 600, 1))
+        ry = h - 32 if featured else 46
+        b.append(T(w - 28, ry, "view repo  ↗", 12, "a", "end", 600, 1))
     y = 84
     for line in wrap(desc, chars):
         b.append(T(28, y, line, 14, "m")); y += 22
